@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A0ADFB1E5A7D7D00078146 /* XBUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A0ADF71E5A7D7D00078146 /* XBUserDefault.m */; };
+		30A0ADFC1E5A7D7D00078146 /* XBUserOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A0ADFA1E5A7D7D00078146 /* XBUserOBJ.m */; };
 		30BD27181E56EA4200B49188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BD27171E56EA4200B49188 /* main.m */; };
 		30BD271B1E56EA4200B49188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BD271A1E56EA4200B49188 /* AppDelegate.m */; };
 		30BD271E1E56EA4200B49188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BD271D1E56EA4200B49188 /* ViewController.m */; };
@@ -39,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30A0ADF61E5A7D7D00078146 /* XBUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBUserDefault.h; sourceTree = "<group>"; };
+		30A0ADF71E5A7D7D00078146 /* XBUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBUserDefault.m; sourceTree = "<group>"; };
+		30A0ADF81E5A7D7D00078146 /* XBUserdefaultDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBUserdefaultDefine.h; sourceTree = "<group>"; };
+		30A0ADF91E5A7D7D00078146 /* XBUserOBJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBUserOBJ.h; sourceTree = "<group>"; };
+		30A0ADFA1E5A7D7D00078146 /* XBUserOBJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBUserOBJ.m; sourceTree = "<group>"; };
 		30BD27131E56EA4200B49188 /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BD27171E56EA4200B49188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30BD27191E56EA4200B49188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A0ADF51E5A7D7D00078146 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				30A0ADF61E5A7D7D00078146 /* XBUserDefault.h */,
+				30A0ADF71E5A7D7D00078146 /* XBUserDefault.m */,
+				30A0ADF81E5A7D7D00078146 /* XBUserdefaultDefine.h */,
+				30A0ADF91E5A7D7D00078146 /* XBUserOBJ.h */,
+				30A0ADFA1E5A7D7D00078146 /* XBUserOBJ.m */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		30BD270A1E56EA4200B49188 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +134,7 @@
 				30BD271A1E56EA4200B49188 /* AppDelegate.m */,
 				30BD271C1E56EA4200B49188 /* ViewController.h */,
 				30BD271D1E56EA4200B49188 /* ViewController.m */,
+				30A0ADF51E5A7D7D00078146 /* UserDefaults */,
 				30BD27491E56EB3B00B49188 /* NetWorkProtocol */,
 				30BD271F1E56EA4200B49188 /* Main.storyboard */,
 				30BD27221E56EA4200B49188 /* Assets.xcassets */,
@@ -305,8 +325,10 @@
 			files = (
 				30BD271E1E56EA4200B49188 /* ViewController.m in Sources */,
 				30BD271B1E56EA4200B49188 /* AppDelegate.m in Sources */,
+				30A0ADFC1E5A7D7D00078146 /* XBUserOBJ.m in Sources */,
 				30BD27181E56EA4200B49188 /* main.m in Sources */,
 				30BD27521E56EB3B00B49188 /* NetworkProtocolOBJ.m in Sources */,
+				30A0ADFB1E5A7D7D00078146 /* XBUserDefault.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
